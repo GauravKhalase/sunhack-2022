@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400;700&display=swap");
+
+main {
+  padding-top: 10vh;
+  height: 100vh;
+  background: url(img/bg.jpg);
+    background-size: 100% 100%;
+
+}
+h5{
+  margin-left: 2px;
+  
+}
+p{
+  margin-right: 2px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.card {
+  margin: auto;
+  width: 30rem;
+  border-radius: 0;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 3vh;
+}
+.card-title{
+  margin-bottom: 15px;
+}
+.input-col {
+  width: 28rem;
+  border-width: 5px;
+  border-color: red;
+}
+.forgot{
+  margin-top: 10px;
+}
+.submit {
+  width: 10rem;
+  border-radius: 25px;  
+
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90vw;
+    margin-top: v4h;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+  }
+  main {
+    padding-top: 9vh;
+  }
+}
